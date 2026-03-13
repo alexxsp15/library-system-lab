@@ -6,4 +6,5 @@ while True:
         print("Name must contain only letters. Try again.")
     else:
         print(f"Hello, {name}!")
+        print("YO")
         break
