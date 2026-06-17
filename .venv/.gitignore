@@ -1,0 +1,27 @@
+# Специфічні файли та кеш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Віртуальне середовище (залежності та інтерпретатор)
+.venv/
+venv/
+ENV/
+env/
+
+# Звіти та тимчасові файли тестування (ЛР №6)
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+# Налаштування середовища розробки PyCharm / VS Code
+.idea/
+.vscode/
+
+# Тимчасові файли операційної системи
+Thumbs.db
+Desktop.ini
+.DS_Store
