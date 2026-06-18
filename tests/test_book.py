@@ -39,7 +39,7 @@ class TestBookAndCatalog(unittest.TestCase):
 
     def test_book_is_available_true(self):
         """Книга доступна, якщо кількість копій > 0"""
-        self.assertTrue(self.book.is_available())
+        self.assertFalse(self.book.is_available())  # Спеціально ламаємо тест тут!
 
     def test_book_is_available_false(self):
         """Книга недоступна, якщо кількість копій == 0"""
